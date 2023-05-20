@@ -1,0 +1,19 @@
+1. Podman run - Create and start a new container from an image. This command runs an instance of the 'nginx' image in the background with the containername "mycontainer".
+      podman run [optional] <image>
+For example - podman run -d --name mycontainer nginx.
+
+2. Podman ps - lists the running contsiner. This command lists all the running containers along with their details such as container ID, image used, status, ports etc.
+For example - podman ps
+
+3. Podman images - Lists all the available images. This command displays a list of available container images on the system, including their repository, tags and image ID.
+For example - podman images
+
+4. Podman pull - Download an container registry. Yhis command fetches the latest version of 'ubuntu' image from the default container registry.
+For example - podman pull ubuntu
+
+5. Podman stop - Stop running container. This command stops the 'mycontainer' container, gracefully shutting it down. 
+For example - podman stop mycontainer
+
+6. Podman rm - Remove a stopped container. This command removes the 'mycontainer' container, deleting it from the sytem.
+For example - podman rm <container>
+
